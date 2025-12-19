@@ -151,10 +151,6 @@ h2 {
     .hero .greeting:after {
         padding: 0 5px;
     }
-
-    .profile p {
-        font-size: 8px !important;
-    }
 }
 
 .hero h1 {
