@@ -18,7 +18,7 @@ body ul li {
 }
 
 body p {
-    color: black;
+    color: #aaa;
     font-family: Verdana
 }
 
@@ -46,10 +46,10 @@ hr {
     text-align: center;
     width: 50%;
     margin: 75px auto 53px;
-    color: black;
+    color: #ccc;
     height: 1px;
     border: 0;
-    border-top: 1px solid black;
+    border-top: 1px solid #ccc;
     padding: 0
 }
 
@@ -57,9 +57,8 @@ h2 {
     padding-top: 35px;
     margin: 0 0 25px 0;
     font-size: 38px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
+    font-weight: lighter;
+    color: #777
 }
 
 .container {
@@ -124,23 +123,23 @@ h2 {
 
 .hero {
     font-family: 'Calibri', Helvetica, sans-serif;
-    color: black;
-    margin-top: 30px
+    color: #777;
+    margin-top: 30px;
 }
 
 .hero .greeting {
-    color: black;
+    color: #bbb;
     font-size: 16px;
     display: block;
     margin-top: 88px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .hero .greeting:before,
 .hero .greeting:after {
     content: '';
     padding: 0 30px;
-    border-top: SOLID 1px black;
+    border-top: SOLID 1px #ccc;
     margin: 10px 10px;
     position: relative;
     top: 11px
@@ -157,12 +156,12 @@ h2 {
 .hero h1 {
     font-size: 75px;
     font-weight: 500;
-    margin: 4px
+    margin: 4px;
 }
 
 @media (max-width:500px) {
     .hero h1 {
-        font-size: 50px
+        font-size: 25px;
     }
 }
 
@@ -186,7 +185,7 @@ h2 {
 
 .hero h2 li:first-child:after {
     content: '\00b7';
-    color: #f75353;
+    color: #777;
     font-weight: bold;
     margin: 10px;
     line-height: 3px
@@ -194,7 +193,7 @@ h2 {
 
 .hero h2 li:last-child:before {
     content: '\00b7';
-    color: #f75353;
+    color: #777;
     font-weight: bold;
     margin: 10px;
     line-height: 3px
@@ -238,18 +237,17 @@ h2 {
     height: 256px;
     width: 256px;
     border-radius: 50%;
-    border: SOLID 3px black;
+    border: SOLID 3px #777;
     margin: 35px auto 0;
     overflow: hidden;
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    transform: rotate(0deg)
+    transform: rotate(-27deg);
 }
 
 .profile .pic img {
     height: 256px;
-    border-radius: 50%;
-    transform: rotate(-25deg);
+    border-radius: 50%
 }
 
 .profile p {
@@ -271,24 +269,26 @@ h2 {
 .social li a {
     text-decoration: none;
     color: #fff;
-    font-size: 13px
+    color: red;
+    color: #777;
+    font-size: 28px;
 }
 
-.social li.green {
-    background: #51d466
+/* .social li.github {
+    background: #777;
 }
 
-.social li.yellow {
-    background: #f7a253
+.social li.x {
+    background: #777;
 }
 
-.social li.blue {
-    background: #32c8de
+.social li.message {
+    background: #777;
 }
 
 .social li.red {
     background: #f75353
-}
+} */
 
 .projects .container {
     margin-top: 45px
