@@ -231,6 +231,10 @@ h2 {
     .top-menu {
         display: none;
     }
+
+    .profile p {
+        font-size: 16px !important;
+    }
 }
 
 .profile .pic {
@@ -252,7 +256,7 @@ h2 {
 
 .profile p {
     line-height: 25px;
-    font-size: 14px;
+    font-size: 18px;
     margin: 20px 0 0 0;
 }
 
@@ -268,8 +272,6 @@ h2 {
 
 .social li a {
     text-decoration: none;
-    color: #fff;
-    color: red;
     color: #777;
     font-size: 28px;
 }
