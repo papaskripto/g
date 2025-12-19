@@ -149,7 +149,11 @@ h2 {
 
     .hero .greeting:before,
     .hero .greeting:after {
-        padding: 0 5px
+        padding: 0 5px;
+    }
+
+    .profile p {
+        font-size: 8px !important;
     }
 }
 
@@ -229,7 +233,7 @@ h2 {
 
 @media (max-width:500px) {
     .top-menu {
-        display: none
+        display: none;
     }
 }
 
@@ -253,7 +257,7 @@ h2 {
 .profile p {
     line-height: 25px;
     font-size: 14px;
-    margin: 20px 0 0 0
+    margin: 20px 0 0 0;
 }
 
 .social {
